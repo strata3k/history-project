@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/pexels-aleksandar-pasaric-3209168.jpg);
+    background-image: url(images/43339291-0E21-4ECE-9F3E-4AFC66AB86D6.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -37,9 +37,10 @@ nav img{
 }
 
 .nav-links ul li a{
-    color: black;
+    color: blue;
     text-decoration: none;
     font-size: 13px;
+    display: none;
 }
 
 .nav-links ul li::after{
@@ -57,7 +58,7 @@ nav img{
 
 .text-box{
     width: 90%;
-    color: black;
+    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -71,15 +72,15 @@ nav img{
 
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
-    color: black;
+    font-size: 20px;
+    color: white;
 }
 
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: black;
-    border: 1px solid black;
+    color: white;
+    border: 1px solid white;
     padding: 12px 34px;
     background: transparent;
     cursor: pointer;
@@ -91,25 +92,32 @@ nav img{
     transition: 1s;
 }
 
-/*---- courses ---*/
+/*---- info ---*/
+
+h2{
+    color: #fdca7a;
+    text-align: center;
+    font-size: 48px;
+}
 
 .about{
     width: 80%;
-    margin: auto;
+    margin:auto;
     text-align: center;
     padding-top: 100px;
-    background-position: center;
-    background-size: cover;
+    background-position: fill;
+    background-size: fill;
     position: relative;
 }
 
 h1{
     font-size: 36px;
     font-weight: 600;
+    color: white;
 }
 
 p{
-    color: #777;
+    color: #fbcc7b;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -124,7 +132,7 @@ p{
 
 .course-col{
     flex-basis: 31%;
-    background: #fff3f3;
+    background: #44362d;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -136,6 +144,7 @@ h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+    color: #af7955;
 }
 
 .course-col:hover{
@@ -146,7 +155,7 @@ h3{
 .container{
     width: 100%;
     height: 100vh;
-    background-image: url(images/7CD7A1A7-C4CE-44B1-9870-F8CAC33746AC.jpg);
+    background-image: url(images/pexels-aleksandar-pasaric-3209168.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
